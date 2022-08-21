@@ -1,0 +1,437 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: iransans;
+    src: url(FontsFree-Net-ir_sans.ttf);
+}
+
+.body{
+    font-family: iransans;
+}
+
+.box1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.box1-vid{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+}
+
+.box1-color{
+    background-color: rgba(0, 0, 0, 0.514);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline;
+    
+}
+
+.box1-sb{
+    color: darkgray;
+    font-size: 24px;
+    text-decoration: none;
+    position: absolute;
+    top: 4%;
+    left: 15%;
+}
+.box-sb:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.prgt{
+    color: rgb(146, 146, 146);
+    text-decoration: none;
+    position: absolute;
+    top: 4%;
+    left: 15%;
+    font-size: 25px;
+    transition: 0.4s;
+}
+.prgt:hover{
+    color: white;
+
+}
+
+.box1-menu-style{
+    text-decoration: none;
+    color: rgb(146, 146, 146);
+    font-size: 17px;
+}
+.box1-menu-style:hover{
+    color: white;
+}
+
+.box1-abuot-pos{
+    position: absolute;
+    top: 5%;
+    left: 65%;
+}
+
+.box1-social-pos{
+    position: absolute;
+    top: 5%;
+    left: 70%;
+}
+
+.box1-profit-pos{
+    position: absolute;
+    top: 5%;
+    left: 75%;
+}
+
+.box1-contact-pos{
+    position: absolute;
+    top: 5%;
+    left: 81%;
+}
+
+.box-h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+    margin-top: 15%;
+}
+
+.box1-line{
+    color: white;
+    background-color: #F4623A;
+    width: 200px;
+    height: 5px;
+    border-radius: 40px;
+    position: absolute;
+    left: 45%;
+    margin-top: 25px;
+}
+
+.box1-p{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box1-but{
+    color:white;
+    background-color: #F4623A;
+    border:1px solid #F4623A;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px;
+    position:  absolute;
+    left: 46.5%;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+.box2{
+    width: 100%;
+    height: 100%;
+    background-color: #F4623A;
+}
+
+.box2-b{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 4%;
+}
+
+.box2-line{
+    color: white;
+    background-color: white;
+    width: 200px;
+    height: 5px;
+    border-radius: 40px;
+    position: absolute;
+    left: 45%;
+    margin-top: 30px;
+    
+}
+
+.box2-p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 3.5%;
+}
+
+.refeers-pic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1%;
+}
+.refeers-pic:hover{
+    cursor: pointer;
+}
+
+.reefer-pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    margin-top: 4%;
+}
+
+.reffers-star{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+.box3{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+}
+
+.box3-p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 60px;
+    padding-top: 5%;
+}
+
+.box3-line{
+    color: #F4623A;
+    background-color: #F4623A;
+    width: 200px;
+    height: 5px;
+    border-radius: 40px;
+    position: absolute;
+    left: 45%;
+    margin-top: 10px;
+}
+
+.box3-icon{
+    color: #F4623A;
+    font-size: 70px;
+}
+
+.box3-icons{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    column-gap: 10%;
+}
+
+.box3-icon-flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5%;
+}
+
+.bo3-itext{
+    text-decoration: none;
+    color: black;
+}
+.bo3-itext:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+.box4{
+    width: 100%;
+    height: 80%;
+    background-color: #F4623A;
+    display: flex;
+    /* background-image: url(selah\ rap.jpg);
+    background-size: cover;
+    border: 5px solid #F4623A;
+    border-radius: 5px; */
+}
+
+.box4-vidsoc{   
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.box4-h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+.box5{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.box5-h2{
+    color: black;
+    margin-top: 5%;
+}
+
+.box5-line{
+    color: white;
+    background-color: #F4623A;
+    width: 200px;
+    height: 5px;
+    border-radius: 40px;
+    position: absolute;
+    left: 43%;
+    margin-top: 25px;
+    margin-top: 10%;
+}
+
+.box5-p{
+    color: black;
+    margin-top: 4%;
+}
+
+.box5-inputs{
+    width: 500px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.658);
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 14px;
+}
+
+.box5-chosefile-input{
+    width: 500px;
+    height: 60px;
+    margin-top: 14px;
+}
+
+.box5-sbut{
+    color: white;
+    background-color: #F4623A;
+    border: 1px solid #F4623A;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 220px;
+    padding-right: 220px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.box6{
+    width: 100%;
+    height: 20%;
+    background-color: #F4623A;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logos{
+    width: 300px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+.box7{
+    width: 100%;
+    height: 10%;
+    background-color: #F9F8FA;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box7-p{
+    margin-top: 14px;
+}
